@@ -18,6 +18,16 @@ Scrivi una funzione che accetti tre argomenti:
 un array e due numeri (“a” più piccolo di “b” e “b” grande al massimo quanto il numero di elementi dell’array).
 La funzione ritornerà un nuovo array con i valori che hanno la posizione compresa tra “a” e “b”
 
-## Step da seguire
+## Step da seguire snack 1
 1. creo array con tutte le 10 zucchine
-2. utilizzo il reduce
+2. utilizzo il foreach 
+
+## Step da seguire snack 2
+1. utilizzo array già creato delle zucchine
+2. creo 2 array vuoti
+3. divido le zucchine pushando nei 2 array nuovi in base alla lunghezza <15 o >15
+4. stampo il peso dei due array
+
+
+## Step da seguire snack 3
+1. split, reverse e join

@@ -60,3 +60,34 @@ zucchine.forEach(zucchina => {
 console.log(`Il peso totale delle zucchine è ${pesoTotale} kg.`);
 
 // SNACK 2
+// inizializzo i 2 nuovi array
+let zucchineGrandi = [];
+let zucchinePiccole = [];
+
+// pusho ogni zucchina nel suo array corretto
+zucchine.filter (zucchina => {
+  if (zucchina.lunghezza < 15) {
+    return zucchinePiccole.push(zucchina);
+  }
+  return zucchineGrandi.push(zucchina);
+})
+
+console.log(zucchineGrandi);
+console.log(zucchinePiccole);
+
+// peso totale delle piccole
+let pesoTotPiccole = 0;
+zucchinePiccole.forEach(zucchina => {
+  pesoTotPiccole += zucchina.peso;
+})
+console.log(`Il peso totale delle zucchine piccole è ${pesoTotPiccole} kg.`);
+
+// peso totale delle grandi
+let pesoTotGrandi = 0;
+zucchineGrandi.forEach(zucchina => {
+  pesoTotGrandi += zucchina.peso;
+})
+console.log(`Il peso totale delle zucchine grandi è ${pesoTotGrandi} kg.`);
+
+// SNACK 3
+
