@@ -50,4 +50,11 @@ const zucchine = [
     peso: 750,
     lunghezza: 38
   }
-]
+];
+
+// SNACK 1
+const pesoTotale = zucchine.reduce((totale, zucchina) => {
+  return totale + zucchina.peso;
+}, 0);
+
+console.log(`Il peso totale delle zucchine è ${pesoTotale} kg.`);
