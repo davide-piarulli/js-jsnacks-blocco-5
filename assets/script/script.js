@@ -90,4 +90,10 @@ zucchineGrandi.forEach(zucchina => {
 console.log(`Il peso totale delle zucchine grandi è ${pesoTotGrandi} kg.`);
 
 // SNACK 3
+const word = 'zucchina';
 
+function reverse (word) {
+  return word.split('').reverse().join('');
+  
+}
+console.log(reverse(word));
