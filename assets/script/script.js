@@ -97,3 +97,16 @@ function reverse (word) {
   
 }
 console.log(reverse(word));
+
+// SNACK 4
+const lettere = ['a', 'b', 'c'];
+const numeri = ['1', '2', '3'];
+let all = [];
+
+for (let i = 0; i < lettere.length; i++) {
+  all.push(lettere[i]);
+  all.push(numeri[i]);
+}
+console.log(all);
+
+// SNACK 5
