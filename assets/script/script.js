@@ -53,8 +53,10 @@ const zucchine = [
 ];
 
 // SNACK 1
-const pesoTotale = zucchine.reduce((totale, zucchina) => {
-  return totale + zucchina.peso;
-}, 0);
-
+let pesoTotale = 0;
+zucchine.forEach(zucchina => {
+  pesoTotale += zucchina.peso;
+});
 console.log(`Il peso totale delle zucchine è ${pesoTotale} kg.`);
+
+// SNACK 2

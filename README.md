@@ -20,4 +20,4 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
 
 ## Step da seguire
 1. creo array con tutte le 10 zucchine
-2. creo funzione somma
+2. utilizzo il reduce
