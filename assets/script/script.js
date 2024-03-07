@@ -109,4 +109,21 @@ for (let i = 0; i < lettere.length; i++) {
 }
 console.log(all);
 
+
+
 // SNACK 5
+const parole = ['ciao', 'mi', 'chiamo', 'davide', 'vivo', 'a', 'tenerife'];
+const first = 1;
+const second = 3;
+
+function extraction(parole, first, second) {
+  const newArray = [];
+
+  for (let i = first; i <=second; i++) {
+    newArray.push(parole[i]);
+  }
+  return newArray;
+}
+
+const result = extraction(parole, first, second);
+console.log(result);

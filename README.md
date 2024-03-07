@@ -28,6 +28,15 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
 3. divido le zucchine pushando nei 2 array nuovi in base alla lunghezza <15 o >15
 4. stampo il peso dei due array
 
-
 ## Step da seguire snack 3
 1. split, reverse e join
+
+## Step da seguire snack 4
+1. creo 2 nuovi array già pieni ed 1 vuoto che riempirò
+2. con un ciclo for, vado a pushare sia indice del primo array e poi del secondo
+
+## Step da seguire snack 5
+1. creo 3 const: delle parole, e due numeri che uso come min e max
+2. creo una funzione con 3 argomenti
+3. dichiaro il nuovo array dove pusherò i miei elementi
+4. creo un ciclo for per fare il push
